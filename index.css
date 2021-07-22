@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Dela+Gothic+One&display=swap');
 :root {
     --blue: #2babe4;
     --orange: #ffa115;
@@ -14,6 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "montserrat";
 }
 
 li {
@@ -1255,6 +1258,99 @@ footer section div .icons i {
     .Mentors>p {
         width: 100%;
         text-align: left;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+    .landing_page .left {
+        padding-right: 0;
+    }
+    .landing_page .left p {
+        width: 100%;
+    }
+    .landing_page img {
+        width: 100% !important;
+    }
+    .landing_page .left .buttons p {
+        width: auto;
+    }
+    .learning_opp .heading {
+        flex-direction: column;
+    }
+    .learning_opp .heading h3 {
+        text-align: center;
+        width: 100% !important;
+    }
+    .learning_opp .heading div {
+        margin-top: 2rem;
+        align-items: center;
+    }
+    .about .left img {
+        width: 100%;
+        padding: .5rem;
+    }
+    .about .right {
+        padding: 0;
+    }
+    .number {
+        margin-top: 10rem !important;
+    }
+    .about .right h1 {
+        line-height: 2.5rem;
+    }
+    .landing_page .left h1 {
+        line-height: 2.5rem;
+    }
+    .about {
+        height: 100%;
+    }
+    .number {
+        height: 100%;
+    }
+    .services .left h1 {
+        line-height: 2.5rem;
+    }
+    .services {
+        margin-top: 10rem !important;
+        height: 100%;
+    }
+    .services .left>p {
+        width: 100%;
+    }
+    .services .right {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow: hidden;
+    }
+    .courses .heading .left p {
+        width: 100%;
+        line-height: 2rem;
+    }
+    .Mentors .cards .card {
+        margin-bottom: 2rem;
+    }
+    .Mentors>p {
+        line-height: 2rem;
+    }
+    .courses {
+        padding-bottom: 0;
+    }
+    .testimonials .heading>p {
+        line-height: 2rem;
+        width: 100%;
+    }
+    .testimonials .cards .card .bottom p {
+        line-height: 2rem;
+    }
+    footer .contact_us h3 {
+        font-size: 1.2rem;
+    }
+    nav .second {
+        width: 70vw !important;
+        height: 120vh;
     }
 }
 
