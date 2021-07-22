@@ -16,6 +16,7 @@ html,
 body {
     padding: 0 !important;
     margin: 0 !important;
+    overflow-x: hidden;
 }
 
 * {
@@ -332,6 +333,7 @@ nav .icon {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    padding: 1rem;
 }
 
 .learning_opp .cards .card i {
@@ -1357,6 +1359,17 @@ footer section div .icons i {
     nav .second {
         width: 70vw !important;
         height: 100vh;
+        padding: 1rem;
+        align-items: flex-start;
+    }
+    nav .second .middle {
+        width: 80%;
+    }
+    nav .second .right {
+        align-items: flex-start;
+    }
+    nav .second .right p {
+        width: 80% !important;
     }
 }
 
